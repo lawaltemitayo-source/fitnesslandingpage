@@ -1,0 +1,179 @@
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.header {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: #fff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ /*  -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;*/
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 68px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 92px;
+    font-weight: 600;
+}
+
+.header p {
+
+    font-size: 22px;
+    line-height: 38px;
+    }
+    .images{
+      height: 50;
+    }
+    .header .cta-button {
+      background-color: #15090c;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+    }
+    .header img {
+      max-width: 50%;
+      border-radius: 15px;
+    }
+    .features {
+      display: flex;
+      padding: 40px 20px;
+      grid-template-columns: 1fr,1fr;
+    }
+    .features .text {
+      flex: 1;
+      padding-right: 20px;
+      margin-top: 0px;
+    }
+    .features .image {
+      flex: 1;
+      padding-left: 20px;
+      margin-top: 0px;
+    }
+    .features h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 36px;
+      color: #333;
+    }
+    .features p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #555;
+    }
+    .testimonials {
+      background-color: #f9f9f9;
+      padding: 60px 20px;
+      text-align: center;
+     
+    }
+    .testimonials h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 36px;
+      color: #333;
+    }
+    .temi{
+      display: flex;
+      grid-template-columns: 1fr,1fr,1fr;
+      text-align: center;
+      margin: auto;
+      
+    }
+    .testimonials .testimonial {
+      flex: 1;
+      margin: 0 20px;
+      
+    }
+    .testimonials p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .testimonials .user-name {
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      color: #ff416c;
+    }
+    .download {
+      background-color: #ff4b2b;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .download h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .download p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .download .cta-button {
+      background-color: #fff;
+      color: #ff4b2b;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+    }
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+    }
+    .footer a {
+      color: #ff4b2b;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 20px;
+    }
+            
+    
+    
+                
+    
+    
+    
